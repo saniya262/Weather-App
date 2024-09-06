@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import DateTime from './dateTime';
 import './App.css';
 import defaultImage from './images/cloudy.jpg'; 
 import clearImage from './images/clear.jpg';
@@ -8,6 +7,7 @@ import cloudsImage from './images/cloudy.jpg';
 import rainImage from './images/rainy.jpg';
 import snowImage from './images/snowy.jpg';
 import hazeImage from './images/haze.jpg'; 
+import DateTime from './dateTime';
 
 
 
@@ -143,7 +143,7 @@ const App = () => {
         </div>
 
         <div className="box box4">
-          <DateTime />
+          <DateTime/>
         </div>
 
         <div className="box box5">
